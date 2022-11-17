@@ -21,6 +21,6 @@ git commit -m 'update'
 # git push -f git@gitee.com:<USERNAME>/<USERNAME>.gitee.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:aguoxing/vitepress-doc main:gh-pages
+git push -f git@github.com:aguoxing/vitepress-doc.git main:gh-pages
 
 cd -
