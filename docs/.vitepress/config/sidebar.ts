@@ -41,8 +41,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         {
             text: '软件设计师',
             items: [
+                { text: '考试大纲', link: '/posts/ruankao/softwaredesign/0-考试大纲' },
                 { text: '计算机组成与体系结构', link: '/posts/ruankao/softwaredesign/1-计算机组成与体系结构' },
-                { text: '操作系统', link: '/posts/ruankao/softwaredesign/2-操作系统' }
+                { text: '操作系统', link: '/posts/ruankao/softwaredesign/2-操作系统' },
+                { text: '数据库系统', link: '/posts/ruankao/softwaredesign/3-数据库系统' },
+                { text: '计算机网络与信息安全', link: '/posts/ruankao/softwaredesign/4-计算机网络与信息安全' },
             ]
         }
     ]
