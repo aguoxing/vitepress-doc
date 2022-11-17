@@ -6,7 +6,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '其他',
     items: [
-      { text: '软考', link: '/posts/ruankao/index' }
+      { text: '软考', link: '/posts/other/index' }
     ]
   },
   {
