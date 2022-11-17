@@ -1,4 +1,4 @@
-const site = 'https://imgx.cc'
+const site = 'https://doc.imgx.cc'
 
 export const metaData = {
   lang: 'zh-CN',
