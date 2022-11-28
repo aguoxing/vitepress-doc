@@ -8,7 +8,7 @@ export default defineConfig({
     lang: metaData.lang,
     title: metaData.title,
     description: metaData.description,
-    base: '/doc/',
+    base: '/vitepress-doc/',
 
     head, // <head>内标签配置
     lastUpdated: true, // 显示最后更新时间
