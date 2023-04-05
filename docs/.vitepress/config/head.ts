@@ -2,7 +2,7 @@ import type { HeadConfig } from 'vitepress'
 import { metaData } from './constants'
 
 export const head: HeadConfig[] = [
-  ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ['link', { rel: 'icon', href: '/logo.svg' }],
   ['meta', { name: 'author', content: 'xx' }],
   ['meta', { name: 'keywords', content: 'xx的知识库, 知识库, 博客, Charles7c' }],
 

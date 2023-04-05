@@ -19,7 +19,8 @@ target/
 *.iml
 *.ipr
 
-docs/.vuepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
 
 ### NetBeans ###
 /nbproject/private/
