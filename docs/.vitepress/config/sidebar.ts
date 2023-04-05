@@ -5,8 +5,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     {
       text: "java",
       items: [
-        { text: "java1", link: "/posts/base/java/java第一篇" },
-        { text: "java2", link: "/posts/base/java/java第二篇" },
+        { text: "设计模式", link: "/posts/base/java/设计模式" },
+        { text: "排序算法", link: "/posts/base/java/排序算法" },
       ],
       collapsible: true,
       collapsed: true,
