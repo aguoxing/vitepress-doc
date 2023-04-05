@@ -11,6 +11,7 @@
     "docs:serve": "vitepress serve docs",
     "docs:preview": "vitepress preview docs"
   },
+  "type": "module",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.65"
   }
