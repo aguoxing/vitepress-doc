@@ -4,11 +4,21 @@ import { metaData } from './constants'
 export const head: HeadConfig[] = [
   ['link', { rel: 'icon', href: '/logo.svg' }],
   ['meta', { name: 'author', content: 'xx' }],
-  ['meta', { name: 'keywords', content: 'xx的知识库, 知识库, 博客, Charles7c' }],
+  ['meta', { name: 'keywords', content: 'xx的知识库, 知识库, 博客' }],
 
   ['meta', { name: 'HandheldFriendly', content: 'True' }],
   ['meta', { name: 'MobileOptimized', content: '320' }],
   ['meta', { name: 'theme-color', content: '#3c8772' }],
+
+  // 禁止页面缩放
+  [
+    'meta',
+    {
+      name: 'viewport',
+      content:
+          'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'
+    }
+  ],
 
   ['meta', { property: 'og:type', content: 'website' }],
   ['meta', { property: 'og:locale', content: metaData.locale }],
