@@ -13,6 +13,6 @@
   },
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.10"
+    "vitepress": "^1.0.0-rc.13"
   }
 }
