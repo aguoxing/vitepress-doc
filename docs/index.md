@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: xx的知识库
+title: singo7ce的知识库
 titleTemplate: 个人知识库，记录和分享个人碎片化、结构化、体系化的知识内容
 
 hero:
-  name: xx的知识库
+  name: singo7ce的知识库
   text: 专注 & 洞察 & 分享
   tagline: 个人知识库，记录 & 分享个人碎片化、结构化、体系化的知识内容。
   image:

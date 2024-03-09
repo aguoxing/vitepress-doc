@@ -5,9 +5,9 @@ import MyLayout from './components/MyLayout.vue'
 import './styles/custom.css'
 
 export default {
-  ...DefaultTheme,
+  extends: DefaultTheme,
   Layout: MyLayout,
-  enhanceApp({ app }) {
+  enhanceApp(ctx) {
     // register global component
-  }
-}
+  },
+};
