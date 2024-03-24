@@ -27,10 +27,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
   "/posts/pro/": [
     {
       text: "java3",
-      items: [
-        { text: "java", link: "/posts/base/java/index" },
-        { text: "vue", link: "/posts/base/vue/index" },
-      ],
+      items: [],
     },
   ],
 };
